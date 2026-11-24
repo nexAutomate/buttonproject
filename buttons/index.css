@@ -1,0 +1,28 @@
+.updatingButton {
+    background-color: rgb(6, 6, 6);
+    width: 40%;
+    height: 100px;
+    padding: 10%;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 40px;
+    font-weight: 200;
+}
+@media (max-width: 600px) {
+    .updatingButton{
+        background-color: red;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px)  {
+    .updatingButton{
+        background-color: green;
+    }
+}
+
+.word {
+    font-family: cursive;
+}
+.wording {
+    color: #e90e0e;
+}
